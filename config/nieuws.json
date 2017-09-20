@@ -1,0 +1,22 @@
+{
+    "nieuws":
+    [
+        {
+            "titel": "Mijn eerste blogbericht",
+            "id": 1,
+            "datum": "18/05/2017 ~ 22:45",
+            "categorieen": ["Week 1","AFC","Node.js","Express"],
+            "samenvatting": "Hier start het hele verhaal van Advanced Front-end Coding 2017!",
+            "body": "<p>Week 1! <br><br> De eerste week begon rustig, maar het lijkt er alvast wel op dat het een enorm boeiend 6-tal weken zal worden. De keuze voor dit vak was voor mij zeer snel gemaakt. Mijn interesse ligt enorm hard bij het designen van websites en dus was dit een mooie kans om extra kennis op te doen. <br><br> De eerste les bestaat erin om een nieuwe website te maken via Node.js en Express. Het resultaat is de site waarop u nu terecht bent gekomen. De komende weken gaan we veel verder in op de MERN stack, waar ik al enorm naar uitkijk.</p>",
+            "afbeeldingl":"code.jpg"
+        },
+        {
+            "titel": "Coming soon",
+            "id": 2,
+            "datum": "",
+            "categorieen": [],
+            "samenvatting": "",
+            "body": ""
+        }
+    ]
+}

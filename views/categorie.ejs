@@ -1,0 +1,28 @@
+<% include header %>
+<% include headbar %>
+
+
+<h2 class="Tag">Nieuwsitems voor <%- categorieen[id] %></h2>
+
+<div class="PostSummaries">
+  <% for (var i = 0; i < items.length; i++) { %>
+    <% if (items[i].categorieen.indexOf(categorieen[id]) !== -1) { %>
+      <section>
+        <a href=/items/<%- items[i].id %>>
+          <h2>
+            <%- items[i].titel %>
+          </h2>
+          <img src="/img/<%- items[i].afbeeldingl %>" alt="<%- items[i].titel %>">
+          <p><%- items[i].datum %></p>
+
+          <p>
+            <%- items[i].samenvatting %>
+          </p>
+        </a>
+      </section>
+    <% } %>
+  <% } %>
+</div>
+
+
+<% include footer %>

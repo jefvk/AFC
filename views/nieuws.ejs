@@ -1,0 +1,22 @@
+<% include header %>
+<%include headbar %>
+
+<div class="BigArticle">
+  <img src="/img/<%- item.afbeeldingl %>" alt="<%- item.titel %>">
+  <h2><%- item.titel %></h2>
+  <h3><%- item.datum %></h3>
+  <div class="ArticleBody">
+
+      <%- item.body %>
+
+  </div>
+<p class="tags">
+
+  <% for (var i = 0; i < item.categorieen.length; i++) { %>
+    <a href="/categorieen/<%- i %>"><%- item.categorieen[i] %></a>
+  <% } %>
+</p>
+</div>
+
+
+<% include footer %>

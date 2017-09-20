@@ -1,0 +1,28 @@
+<% include header %>
+
+<%include headbar%>
+
+<div class="PostSummaries">
+
+  <% var teller = 1; %>
+  <% nieuws.forEach(function(item){ %>
+    <section>
+      <a href=/items/<%- item.id %>>
+        <h2>
+          <%- item.titel %>
+        </h2>
+        <img src="/img/<%- item.afbeeldingl %>" alt="<%- item.titel %>">
+        <p><%- item.datum %></p>
+
+        <p>
+          <%- item.samenvatting %>
+        </p>
+      </a>
+    </section>
+    <% teller++;}); %>
+
+</div>
+
+
+
+<% include footer %>
